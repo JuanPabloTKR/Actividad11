@@ -1,0 +1,186 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background: #A1BEC2;
+}
+p{
+	font-size: 14px;
+	font-family: arial;
+	line-height: 20px;
+}
+h3{
+	color: #CCC;
+	background: url(../imagenes/h1.jpg) repeat-x;
+	border-radius: 10px 10px 0 0;
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: middle;
+	width: 100%;
+}
+h4{
+	font-size: 16px;
+	font-family: verdana;
+	font-weight: bold;
+}
+header{
+	margin: auto;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px #160142;
+	background: url('../imagenes/header.png');
+	height: 150px;
+	width: 960px;
+}
+header h1{
+	text-shadow: 1px 1px 7px #FFF;
+	color: #000;
+	font-family: verdana;
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 150px;
+	margin-top: 10px;
+	padding-left: 20px;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+nav{
+	margin-top: 3px;
+	border-radius:10px;
+	background: #001A33;
+	height: 50px;
+	margin: auto;
+	margin-bottom: 5px;
+	width: 960px;
+}
+nav ul{
+	text-align: center;
+	list-style: none;
+	width: 100%;
+}
+nav ul li{
+	color: #FFF;
+	font-size: 20px;
+	font-family: arial;
+	font-weight: bold;
+	display: inline-block;
+	line-height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+nav ul li:hover{
+	color: #21EDC7;
+}
+
+#slider{
+	background: url('../imagenes/Juego.jpg') #CFFFBF;
+	border-radius: 10px;
+	margin: auto;
+	margin-bottom: 5px;
+	width: 960px;
+}
+#slider img{
+	height: 350px;
+}
+#continicio{
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+}
+#continicio h2{
+	font-size: 40px;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+#slider figure img{
+	display: block;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px #000;
+	opacity: .9;
+	width: 100%;
+}
+.contenido{
+	background: url('../imagenes/DesWeb.jpg');
+	border-radius: 10px;
+	margin-top: 3px;
+	margin: auto;
+	margin-bottom: 5px;
+	width: 960px;
+}
+.articulos{
+	padding: 10px;
+}
+.articulos img{
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+.serv1{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 25px;
+	display: inline-block;
+	width: 280px;
+}
+
+.serv1 img{
+	border-radius: 10px;
+	border:3px solid #000;
+	margin-top: 10px;
+	height: 100px;
+	width: 100px;
+}
+
+footer{
+	border-radius: 10px;
+	background: url(../imagenes/FondoFooter.jpg);
+	height: 75px;
+	margin: auto;
+	margin-bottom: 5px;
+	width: 960px;
+}
+footer p{
+	color: #FFF;
+	font-family: verdana;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 75px;
+	vertical-align: middle;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+/* fin de zona común a todas las resoluciones */
+@media screen and (min-width:800px) {
+	body {
+		font-size:100%;
+		/* ampliamos los textos si mide más de 800px */
+	}
+}
+
+/* fin de la zona para más de 800px de ancho de pantalla */
+@media screen and (min-width:1200px) {
+	body {
+		font-size:120%;
+		/* ampliamos más aún los textos si mide más de 1200px */
+	}
+}
+
+/* fin de la zona para más de 1200px de ancho de pantalla */
